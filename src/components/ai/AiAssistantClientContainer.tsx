@@ -1,4 +1,3 @@
-
 // src/components/ai/AiAssistantClientContainer.tsx
 'use client';
 
@@ -72,6 +71,8 @@ export default function AiAssistantClientContainer({ locale }: AiAssistantClient
     );
   }
 
+  //console.log('Translation for disclaimer:', t('pages.aiAssistant.disclaimer'));
+
   return (
     <div className="flex h-full w-full overflow-hidden relative border border-border rounded-lg"> {/* Moved border here */}
       {!isSidebarOpen && (
@@ -91,7 +92,7 @@ export default function AiAssistantClientContainer({ locale }: AiAssistantClient
         isOpen={isSidebarOpen}
         onToggleSidebar={toggleSidebar}
       />
-      <div className="flex-grow flex flex-col overflow-hidden bg-background">
+      <div className="flex flex-col flex-grow h-full bg-background overflow-hidden">
         <ChatInterface locale={locale} clearChatTrigger={clearChatTrigger} />
       </div>
     </div>

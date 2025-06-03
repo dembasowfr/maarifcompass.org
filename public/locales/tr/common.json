@@ -227,6 +227,7 @@
       "signInRequiredTitle": "CompassIA'ya Erişin",
       "signInRequiredMessage": "Yapay Zeka Asistanını kullanmak için lütfen Google hesabınızla oturum açın. Bu, deneyiminizi kişiselleştirmemize ve daha iyi destek sağlamamıza yardımcı olur.",
       "signInWithGoogleButton": "Google ile Giriş Yap",
+      "disclaimer":"CompassIA, MaarifCompass.org tarafından sağlanan belgeler ve kaynaklar hakkında bilgi sağlamak için tasarlanmıştır. Ancak, resmi belgeler veya yasal tavsiye yerine geçmez. Her zaman resmi kaynaklara başvurun veya profesyonel danışmanlık alın.",
       "sidebar": {
         "newChat": "Yeni Sohbet",
         "today": "Bugün",

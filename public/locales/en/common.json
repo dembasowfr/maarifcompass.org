@@ -227,6 +227,7 @@
       "signInRequiredTitle": "Access CompassIA",
       "signInRequiredMessage": "To use the AI Assistant, please sign in with your Google account. This helps us personalize your experience and provide better support.",
       "signInWithGoogleButton": "Sign In with Google",
+      "disclaimer": "CompassIA is an AI Assistant designed to provide helpful responses from the MaarifCompass.org based on available data. It may not always have the latest information or be able to answer every question. For critical issues, please refer to official sources or contact support.",
       "sidebar": {
         "newChat": "New Chat",
         "today": "Today",
