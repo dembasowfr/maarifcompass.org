@@ -1,0 +1,195 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* New Palette HSL Values */
+    /* Primary: Maarif Turquoise #16ABB6 */
+    /* Dark Accent: Compass Navy #003C54 */
+    /* Light Accent: Gentle Sky #E7F6F7 */
+    /* Neutral: Pure White #FFFFFF */
+    /* Text Color: Deep Gray #2C3E50 */
+    /* Link Color: Deep Maarif Blue #0B6D84 */
+    /* Success: Emerald Green #2ECC71 */
+    /* Error: Soft Red #E74C3C */
+    /* Hover Effect: Soft Turquoise #1ECAD3 */
+
+    --background: 0 0% 100%; /* Pure White #FFFFFF */
+    --foreground: 210 29% 24%; /* Deep Gray #2C3E50 */
+
+    --muted: 185 53% 94%; /* Gentle Sky #E7F6F7 */
+    --muted-foreground: 210 29% 45%; /* Lighter Deep Gray */
+
+    --popover: 0 0% 100%; /* Pure White #FFFFFF */
+    --popover-foreground: 210 29% 24%; /* Deep Gray #2C3E50 */
+
+    --card: 0 0% 100%; /* Default card background Pure White #FFFFFF */
+    --card-foreground: 210 29% 24%; /* Deep Gray #2C3E50 */
+
+    --border: 210 20% 88%; /* Light Gray, adjust as needed */
+    --input: 185 78% 40%; /* Maarif Turquoise #16ABB6 for input borders */
+
+    --primary: 185 78% 40%; /* Maarif Turquoise #16ABB6 */
+    --primary-foreground: 0 0% 100%; /* Pure White #FFFFFF */
+
+    --secondary: 185 53% 94%; /* Gentle Sky #E7F6F7 */
+    --secondary-foreground: 199 100% 16%; /* Compass Navy #003C54 for text on Gentle Sky */
+
+    --accent: 182 75% 47%; /* Soft Turquoise #1ECAD3 for hovers/focus */
+    --accent-foreground: 0 0% 100%; /* Pure White #FFFFFF text on Soft Turquoise */
+
+    --destructive: 5 79% 57%; /* Soft Red #E74C3C */
+    --destructive-foreground: 0 0% 100%; /* Pure White #FFFFFF */
+
+    --ring: 182 75% 47%; /* Soft Turquoise #1ECAD3 for focus rings */
+    
+    --radius: 0.5rem;
+
+    /* Chart colors (can be updated to match palette if charts are used) */
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+
+    /* Custom color variables for direct use if needed */
+    --maarif-turquoise: 185 78% 40%;
+    --compass-navy: 199 100% 16%;
+    --gentle-sky: 185 53% 94%;
+    --pure-white: 0 0% 100%;
+    --deep-gray: 210 29% 24%;
+    --deep-maarif-blue: 193 86% 28%;
+    --emerald-green: 145 63% 49%;
+    --soft-red: 5 79% 57%;
+    --soft-turquoise: 182 75% 47%;
+    --disabled-text-color: 0 0% 63%; /* #A0A0A0 */
+
+    /* New custom colors for specific buttons */
+    --calm-blue: 207 68% 62%; /* #5DADE2 */
+    --calm-blue-hover: 207 70% 53%; /* #3498DB */
+
+
+    /* Sidebar specific colors - making them consistent with the new theme */
+    --sidebar-background: 0 0% 100%; /* Pure White */
+    --sidebar-foreground: 210 29% 24%; /* Deep Gray */
+    --sidebar-primary: 185 78% 40%; /* Maarif Turquoise */
+    --sidebar-primary-foreground: 0 0% 100%; /* Pure White */
+    --sidebar-accent: 182 75% 47%; /* Soft Turquoise */
+    --sidebar-accent-foreground: 0 0% 100%; /* Pure White */
+    --sidebar-border: 210 20% 88%; /* Light Gray */
+    --sidebar-ring: 182 75% 47%; /* Soft Turquoise */
+
+    /* Footer specific colors */
+    --footer-background: 199 100% 16%; /* Compass Navy #003C54 */
+    --footer-foreground: 185 53% 94%; /* Gentle Sky #E7F6F7 */
+    --footer-muted-foreground: 185 53% 80%; /* Lighter Gentle Sky for less emphasis links */
+    --footer-border: 199 100% 22%; /* Slightly lighter Compass Navy */
+  }
+
+  .dark {
+    /* Keeping dark mode as previously defined, can be adjusted to a dark version of the new palette if needed */
+    --background: 210 10% 15%; 
+    --foreground: 210 25% 95.7%;
+
+    --muted: 210 10% 25%;
+    --muted-foreground: 210 25% 70%;
+
+    --popover: 210 10% 15%;
+    --popover-foreground: 210 25% 95.7%;
+
+    --card: 210 10% 15%;
+    --card-foreground: 210 25% 95.7%;
+
+    --border: 210 10% 30%;
+    --input: 185 78% 40%; /* Maarif Turquoise for input borders */
+
+    --primary: 185 78% 40%; /* Maarif Turquoise */
+    --primary-foreground: 0 0% 100%; /* Pure White */
+
+    --secondary: 210 10% 25%;
+    --secondary-foreground: 185 53% 94%; /* Gentle Sky for text on dark secondary */
+
+    --accent: 182 75% 47%; /* Soft Turquoise */
+    --accent-foreground: 0 0% 100%; /* Pure White */
+    
+    --destructive: 5 79% 57%; /* Soft Red */
+    --destructive-foreground: 0 0% 98%;
+
+    --ring: 182 75% 47%; /* Soft Turquoise */
+    
+    /* Chart colors (can be updated to match palette if charts are used) */
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+
+    --sidebar-background: 210 10% 10%;
+    --sidebar-foreground: 210 25% 90%;
+    --sidebar-primary: 185 78% 40%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 182 75% 47%; 
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 210 10% 20%;
+    --sidebar-ring: 182 75% 47%;
+
+    /* Dark mode Footer specific colors */
+    --footer-background: 199 100% 10%; /* Darker Compass Navy */
+    --footer-foreground: 185 53% 90%; /* Slightly darker Gentle Sky */
+    --footer-muted-foreground: 185 53% 75%;
+    --footer-border: 199 100% 15%;
+
+    /* New custom colors for specific buttons - dark mode (can be same or adjusted) */
+    --calm-blue: 207 68% 62%; 
+    --calm-blue-hover: 207 70% 53%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  /* Apply footer specific colors */
+  footer {
+    background-color: hsl(var(--footer-background));
+    color: hsl(var(--footer-foreground));
+    border-top-color: hsl(var(--footer-border));
+  }
+  footer a {
+    color: hsl(var(--footer-muted-foreground));
+  }
+  footer a:hover {
+    color: hsl(var(--primary)); /* Maarif Turquoise for hover on footer links */
+  }
+  footer h3 { 
+    color: hsl(var(--footer-foreground)); 
+  }
+
+  /* General link styling */
+  /* This is a base style; components might override it. */
+  /* Avoid applying to .button, .navbar-link, etc. which have their own styles */
+  main a:not([class*="button"]):not([class*="btn"]):not([class*="nav-link"]):not([class*="card"]), 
+  article a:not([class*="button"]):not([class*="btn"]):not([class*="nav-link"]):not([class*="card"]) {
+    @apply text-[hsl(var(--deep-maarif-blue))] hover:text-[hsl(var(--soft-turquoise))] underline-offset-4 hover:underline;
+  }
+}
+
+/* Specific styling for document cards as per palette */
+.document-card {
+  background-color: hsl(var(--gentle-sky));
+}
+.document-card-icon {
+  color: hsl(var(--compass-navy)); /* Or --deep-maarif-blue */
+}
+
+/* Specific styling for form success/error messages if not covered by destructive/primary */
+.form-success-message {
+  color: hsl(var(--emerald-green));
+}
+.form-error-message { /* This is covered by FormMessage using destructive color */
+  color: hsl(var(--soft-red));
+}

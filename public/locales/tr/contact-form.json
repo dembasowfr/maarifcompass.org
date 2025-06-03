@@ -1,0 +1,116 @@
+{
+  "title": "Bize Ulaşın",
+  "description": "Bizimle iletişime geçmek için aşağıdaki formu doldurun. En kısa sürede size geri döneceğiz.",
+  "labels": {
+    "name": "Ad",
+    "surname": "Soyad",
+    "tcNo": "T.C. Kimlik No",
+    "passportNo": "Pasaport Numarası",
+    "citizenship": "Uyruk",
+    "city": "Türkiye'de İkamet Edilen Şehir",
+    "university": "Türkiye'deki Üniversite",
+    "educationLevel": "Mevcut Eğitim Seviyesi",
+    "faculty": "Fakülte",
+    "department": "Bölüm",
+    "grade": "Mevcut Sınıf/Yıl",
+    "email": "E-posta Adresi",
+    "whatsappPhoneNumber": "WhatsApp Telefon Numarası (İsteğe Bağlı)",
+    "category": "Talep Kategorisi",
+    "subject": "Konu",
+    "message": "Mesajınız",
+    "fileUpload": "Dosya Ekle (İsteğe Bağlı)",
+    "fileUploadHint": "Maksimum 5MB. İzin verilen türler: PDF, DOC, DOCX, JPG, PNG.",
+    "optional": "(İsteğe Bağlı)"
+  },
+  "placeholders": {
+    "name": "Adınızı girin",
+    "surname": "Soyadınızı girin",
+    "tcNo": "11 haneli T.C. Kimlik Numaranızı girin (varsa)",
+    "passportNo": "Pasaport numaranızı girin",
+    "citizenship": "Uyruğunuzu seçin",
+    "city": "İkamet ettiğiniz şehri seçin",
+    "university": "Üniversitenizi seçin",
+    "educationLevel": "Eğitim seviyenizi seçin",
+    "faculty": "Fakültenizi girin",
+    "department": "Bölümünüzü girin",
+    "grade": "Sınıfınızı/yılınızı seçin",
+    "email": "E-posta adresinizi girin",
+    "whatsappPhoneNumber": "Örn: +90 5XX XXX XXXX",
+    "category": "Bir kategori seçin",
+    "subject": "Mesajınızın konusunu girin",
+    "message": "Mesajınızı buraya yazın..."
+  },
+  "options": {
+    "educationLevels": {
+      "bachelor": "Lisans Derecesi",
+      "masters": "Yüksek Lisans Derecesi",
+      "phd": "Doktora"
+    },
+    "grades": {
+      "1": "1. Sınıf",
+      "2": "2. Sınıf",
+      "3": "3. Sınıf",
+      "4": "4. Sınıf",
+      "5": "5. Sınıf+",
+      "graduate": "Mezun (Şu an öğrenci değil)"
+    },
+    "categories": {
+      "visa": "Vize & İkamet İzni",
+      "housing": "Barınma & Konaklama",
+      "scholarship": "Burs & Mali Yardım",
+      "university": "Üniversite & Akademik Konular",
+      "health": "Sağlık & Sigorta",
+      "social": "Sosyal Entegrasyon & Aktiviteler",
+      "other": "Diğer Talepler"
+    }
+  },
+  "buttons": {
+    "submit": "Mesaj Gönder",
+    "submitting": "Gönderiliyor...",
+    "submitDisabled": "Lütfen Gerekli Tüm Alanları Doldurun"
+  },
+  "success": {
+    "title": "Mesaj Gönderildi!",
+    "message": "Bizimle iletişime geçtiğiniz için teşekkür ederiz. Kısa süre içinde size geri dönüş yapacağız."
+  },
+  "error": {
+    "title": "Gönderim Başarısız",
+    "message": "Beklenmeyen bir hata oluştu. Lütfen tekrar deneyin.",
+    "fileProcessing": "Dosyanız işlenirken bir hata oluştu. Lütfen tekrar deneyin.",
+    "fileUpload": "Dosya yükleme başarısız. Lütfen tekrar deneyin veya dosyasız gönderin.",
+    "fileUploadUnauthorized": "Dosya yükleme başarısız: Yetkisiz işlem. Lütfen depolama izinlerini kontrol edin.",
+    "fileUploadUnauthenticated": "Dosya yükleme başarısız: Kimlik doğrulanmamış. Gerekirse lütfen giriş yapın.",
+    "fileUploadBucketNotFound": "Dosya yükleme başarısız: Depolama birimi bulunamadı. Lütfen destekle iletişime geçin.",
+    "fileUploadProjectNotFound": "Dosya yükleme başarısız: Firebase projesi bulunamadı. Lütfen destekle iletişime geçin.",
+    "fileUploadQuotaExceeded": "Dosya yükleme başarısız: Depolama kotası aşıldı. Lütfen destekle iletişime geçin.",
+    "fileUploadInvalidArgument":"Dosya yükleme başarısız: Geçersiz dosya verisi. Lütfen dosyayı kontrol edin.",
+    "fileUploadRetryLimitExceeded":"Dosya yükleme başarısız: Ağ hatası, lütfen tekrar deneyin.",
+    "fileUploadCancelled":"Dosya yükleme başarısız: Yükleme iptal edildi.",
+    "fileUploadUnknown":"Dosya yükleme başarısız: Bilinmeyen bir depolama hatası oluştu.",
+    "recaptchaFailedServer": "reCAPTCHA doğrulaması başarısız oldu. Lütfen tekrar deneyin."
+  },
+  "validation": {
+    "nameRequired": "Ad gereklidir.",
+    "surnameRequired": "Soyad gereklidir.",
+    "tcNoInvalid": "T.C. Kimlik No (varsa) 11 haneli olmalıdır.",
+    "passportNoRequired": "Pasaport numarası gereklidir.",
+    "citizenshipRequired": "Uyruk gereklidir.",
+    "cityRequired": "İkamet edilen şehir gereklidir.",
+    "universityRequired": "Üniversite gereklidir.",
+    "educationLevelRequired": "Eğitim seviyesi gereklidir.",
+    "facultyRequired": "Fakülte gereklidir.",
+    "departmentRequired": "Bölüm gereklidir.",
+    "gradeRequired": "Sınıf/Yıl gereklidir.",
+    "emailRequired": "E-posta gereklidir.",
+    "emailInvalid": "Lütfen geçerli bir e-posta adresi girin.",
+    "whatsappPhoneNumberInvalid": "Lütfen geçerli bir telefon numarası girin (örn: +90 5XX XXX XXXX).",
+    "categoryRequired": "Talep kategorisi gereklidir.",
+    "subjectRequired": "Konu gereklidir.",
+    "messageRequired": "Mesaj gereklidir.",
+    "messageMin": "Mesaj en az 10 karakter uzunluğunda olmalıdır.",
+    "fileTooLarge": "Dosya çok büyük. İzin verilen maksimum boyut 5MB.",
+    "fileInvalidType": "Geçersiz dosya türü. İzin verilenler: PDF, DOC, DOCX, JPG, PNG.",
+    "recaptchaRequired": "Lütfen reCAPTCHA'yı tamamlayın."
+  },
+  "disclaimer": "Bu yapay zeka asistanı yalnızca bilgilendirme amaçlıdır ve profesyonel tavsiye olarak değerlendirilmemelidir."
+}

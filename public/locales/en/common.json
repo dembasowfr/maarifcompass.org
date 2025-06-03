@@ -1,0 +1,273 @@
+
+{
+  "appName": "MaarifCompass",
+  "user": "User",
+  "search": "Search",
+  "loading": "Loading...",
+  "save": "Save",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "confirm": "Confirm",
+  "close": "Close",
+  "edit": "Edit",
+  "view": "View",
+  "add": "Add",
+  "error": {
+    "generic": "An unexpected error occurred. Please try again later.",
+    "notFound": "The page you are looking for does not exist."
+  },
+  "success": {
+    "generic": "Operation completed successfully."
+  },
+  "validation": {
+    "required": "{{field}} is required."
+  },
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "documentCenter": "Document Center",
+    "contact": "Contact",
+    "language": "Language",
+    "sitemap": "Sitemap",
+    "sss": "FAQ",
+    "haberler": "News",
+    "etkinlikler": "Events",
+    "duyurular": "Announcements",
+    "opportunities": "Opportunities",
+    "aiAssistant": "CompassIA Assistant",
+    "signIn": "Sign In",
+    "signOut": "Sign Out",
+    "user": "User",
+    "toggleMenu": "Toggle Menu"
+  },
+  "footer": {
+    "aboutUs": "About Us",
+    "publications": "Publications",
+    "media": "Media",
+    "policies": "Policies",
+    "contactUs": "Contact Us",
+    "sitemap": "Sitemap",
+    "followUs": "Follow Us",
+    "backToTop": "Back to Top",
+    "copyright": {
+      "text": "© {{year}} ",
+      "author": "MaarifCompass.org",
+      "link": "https://maarifcompass.org",
+      "message": "All rights reserved."
+    },
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "dataProtectionPolicyPageTitle": "Data Protection Policy",
+    "tmvLogoText": "MaarifCompass",
+    "socialMedia": "Social Media",
+    "links": {
+      "turkishMaarifFoundation": "Türkiye Maarif Foundation",
+      "areasOfWork": "Areas of Work",
+      "corporateIdentity": "Corporate Identity",
+      "management": "Management",
+      "internationalMaarifMagazine": "International Maarif Magazine",
+      "maarifPublications": "Maarif Publications",
+      "books": "Books",
+      "activityReports": "Activity Reports",
+      "domesticPublications": "Domestic Publications",
+      "news": "News",
+      "announcement": "Announcement",
+      "photos": "Photos",
+      "videos": "Videos",
+      "dataProtectionPolicy": "Data Protection Policy",
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "instagram": "Instagram",
+      "youtube": "YouTube",
+      "linkedin": "LinkedIn",
+      "telegram": "Telegram"
+    }
+  },
+  "hero": {
+    "title": "Welcome to MaarifCompass",
+    "subtitle": "Your guide and support platform for Türkiye Maarif Vakfı alumni and students in Türkiye. Discover resources, connect with peers, and navigate your academic journey with confidence.",
+    "cta": "Learn More About Us"
+  },
+  "homepage": {
+    "services": {
+      "title": "Our Core Services",
+      "noServices": "Services information coming soon.",
+      "item1": {
+        "title": "Academic Guidance",
+        "description": "Navigate your studies with expert advice and resources."
+      },
+      "item2": {
+        "title": "Career Opportunities",
+        "description": "Explore internships, job postings, and career development."
+      },
+      "item3": {
+        "title": "Community Network",
+        "description": "Connect with fellow alumni and students across Türkiye."
+      }
+    },
+    "impact": {
+      "title": "Our Impact",
+      "content": "Since our inception, we have been dedicated to fostering a supportive and enriching environment for TMV students and alumni. We're proud of the community we're building together."
+    },
+    "getInvolved": {
+      "title": "Get Involved",
+      "content": "Join our community, access valuable resources, or contribute to our mission. We're here to help you succeed.",
+      "contactButton": "Contact Us",
+      "documentsButton": "Explore Documents"
+    }
+  },
+  "aboutPage": {
+    "mainHeading": "Learn more about our mission, vision, and the services we offer to the Maarif community.",
+    "introduction": "MaarifCompass is dedicated to supporting Türkiye Maarif Vakfı (TMV) alumni and current students pursuing their education in Türkiye. We aim to provide a comprehensive platform for guidance, resources, and community engagement to help individuals thrive academically and professionally.",
+    "mission": {
+      "title": "Our Mission",
+      "content": "To empower TMV alumni and students in Türkiye by providing accessible resources, fostering a strong community network, and offering guidance for their academic and personal development."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "content": "To be the leading support hub for the TMV community in Türkiye, recognized for our commitment to student success, innovation, and collaborative spirit."
+    },
+    "whatWeOffer": {
+      "title": "What We Offer",
+      "item1": "A centralized Document Center with academic and administrative resources.",
+      "item2": "Connections to opportunities for internships, jobs, and further studies.",
+      "item3": "A platform for news, events, and announcements relevant to the TMV community."
+    }
+  },
+  "pages": {
+    "documentCenter": {
+      "intro": "Access important documents, forms, and resources provided by MaarifCompass. Find what you need to support your academic and administrative tasks.",
+      "noDocuments": "No documents are currently available in the Document Center.",
+      "adminInstructions": "Please check back later, or if you are an administrator, you can add documents through the admin panel.",
+      "documentImageAlt": "Document preview image",
+      "untitledDocument": "Untitled Document",
+      "noDescription": "No description available for this document.",
+      "viewDocument": "View Document",
+      "viewDocumentAria": "View document: {{documentName}}",
+      "compassIA": {
+        "title": "Meet CompassIA!",
+        "description": "Have questions about our documents or need help finding specific information? Our AI Assistant, CompassIA, is here to help you navigate our resources.",
+        "button": "Chat with CompassIA"
+      }
+    },
+    "contact": {
+      "title": "Contact Us"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Find answers to common questions about MaarifCompass, our services, and how we support our community."
+    },
+    "haberler": {
+      "description": "Stay updated with the latest news and developments from MaarifCompass and the wider TMV community.",
+      "noNews": "No news articles are currently available. Please check back later.",
+      "sample": {
+        "news1": {
+          "title": "MaarifCompass Launches New Mentorship Program",
+          "summary": "We are excited to announce the launch of our new mentorship program connecting senior students and alumni with newcomers."
+        },
+        "news2": {
+          "title": "Annual TMV Alumni Meetup Scheduled for Next Month",
+          "summary": "Join us for our annual alumni meetup! A great opportunity to network and reconnect with peers."
+        }
+      }
+    },
+    "etkinlikler": {
+      "description": "Discover upcoming events, workshops, and seminars organized by MaarifCompass and partner institutions.",
+      "noEvents": "There are no upcoming events scheduled at this time. Please check back soon.",
+      "sample": {
+        "event1": {
+          "title": "Workshop: Navigating Academic Research in Türkiye",
+          "summary": "A hands-on workshop designed to equip students with essential research skills for their studies in Turkish universities."
+        },
+        "event2": {
+          "title": "Career Fair for TMV Students and Alumni",
+          "summary": "Explore career opportunities with leading companies and organizations at our annual career fair."
+        }
+      }
+    },
+    "duyurular": {
+      "description": "Important announcements and updates from MaarifCompass. Keep informed about deadlines, new services, and more.",
+      "noAnnouncements": "There are no announcements at this moment. Please check back later for updates.",
+      "sample": {
+        "announcement1": {
+          "title": "Scholarship Application Deadline Approaching",
+          "detail": "The deadline for the TMF Scholarship for the upcoming academic year is on November 15th. Ensure your application is submitted on time."
+        },
+        "announcement2": {
+          "title": "New Document Uploaded: Visa Renewal Guide",
+          "detail": "An updated guide for visa renewal procedures has been added to the Document Center. Please review it for the latest information."
+        }
+      }
+    },
+    "opportunities": {
+      "description": "Explore various opportunities including internships, job vacancies, scholarships, and exchange programs available to TMV students and alumni.",
+      "noOpportunities": "No opportunities are listed at the moment. Please check back soon for new listings.",
+      "sample": {
+        "opportunity1": {
+          "title": "Internship Opportunity at Tech Solutions Inc.",
+          "detail": "Tech Solutions Inc. is looking for motivated software engineering interns. Apply now to gain valuable industry experience."
+        },
+        "opportunity2": {
+          "title": "Fully Funded PhD Scholarship in Social Sciences",
+          "detail": "A prestigious university is offering a fully funded PhD scholarship in various social science disciplines. Deadline approaching."
+        }
+      }
+    },
+    "aiAssistant": {
+      "description": "Your personal AI assistant to help you find information, answer questions about documents, and guide you through MaarifCompass resources.",
+      "welcomeTitle": "Welcome to CompassIA, {{name}}!",
+      "welcomeTitleDefault": "Welcome to CompassIA!",
+      "welcomeSubtitle": "How can I assist you today?",
+      "welcomeMessageCleared": "Chat cleared. How can I help you now, {{name}}?",
+      "inputPlaceholder": "Ask CompassIA anything...",
+      "inputPlaceholderChatGPT": "Message CompassIA...",
+      "sendButton": "Send",
+      "errorResponse": "I'm sorry, I encountered an issue while trying to respond. Please try again or ask something different.",
+      "errorTitle": "AI Assistant Error",
+      "signInRequiredTitle": "Access CompassIA",
+      "signInRequiredMessage": "To use the AI Assistant, please sign in with your Google account. This helps us personalize your experience and provide better support.",
+      "signInWithGoogleButton": "Sign In with Google",
+      "sidebar": {
+        "newChat": "New Chat",
+        "today": "Today",
+        "yesterday": "Yesterday",
+        "previous7Days": "Previous 7 Days",
+        "previous30Days": "Previous 30 Days",
+        "openSidebar": "Open Sidebar",
+        "closeSidebar": "Close Sidebar"
+      }
+    }
+  },
+  "documentViewPage": {
+    "downloadButton": "Download Document",
+    "downloadHint": "Click the button to download the document to your device.",
+    "previewNotAvailable": "Preview not available for this file type.",
+    "downloadToView": "Please download the file to view its content."
+  },
+  "indexingTrigger": {
+    "sectionTitle": "Developer: Test Document Indexing",
+    "sectionDescription": "This triggers the AI document indexing flow. It reads documents from Firestore, extracts text, creates embeddings, and stores them for AI search. This may take a few minutes depending on the number and size of documents.",
+    "sectionNote": "Note: This process can be resource-intensive. Use for testing purposes. Check server logs for detailed progress and errors.",
+    "button": "Run Document Indexing",
+    "loadingButton": "Indexing...",
+    "successTitle": "Document Indexing Complete",
+    "successWithWarningTitle": "Indexing Complete with Warnings",
+    "errorTitle": "Indexing Failed",
+    "processed": "Documents Processed: {{count}}",
+    "parsed": "Successfully Parsed/Extracted (this run): {{count}}",
+    "cached": "Used Cached Text: {{count}}",
+    "failed": "Failed to Parse/Download: {{count}}",
+    "chunks": "Text Chunks Created: {{count}}",
+    "embeddings": "Embeddings Generated: {{count}}",
+    "warningTitle": "Warning",
+    "noDocumentsInFirestore": "No documents found in Firestore to index."
+  },
+  "common": {
+    "contentComingSoon": "Content for this section is coming soon. Please check back later!",
+    "learnMore": "Learn More",
+    "readMore": "Read More",
+    "applyNow": "Apply Now",
+    "user": "User",
+    "notFound": "Page Not Found"
+  }
+}

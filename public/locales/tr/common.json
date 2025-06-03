@@ -1,0 +1,273 @@
+
+{
+  "appName": "MaarifCompass",
+  "user": "Kullanıcı",
+  "search": "Ara",
+  "loading": "Yükleniyor...",
+  "save": "Kaydet",
+  "cancel": "İptal",
+  "delete": "Sil",
+  "confirm": "Onayla",
+  "close": "Kapat",
+  "edit": "Düzenle",
+  "view": "Görüntüle",
+  "add": "Ekle",
+  "error": {
+    "generic": "Beklenmedik bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
+    "notFound": "Aradığınız sayfa bulunamadı."
+  },
+  "success": {
+    "generic": "İşlem başarıyla tamamlandı."
+  },
+  "validation": {
+    "required": "{{field}} alanı zorunludur."
+  },
+  "navbar": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "documentCenter": "Belge Merkezi",
+    "contact": "İletişim",
+    "language": "Dil",
+    "sitemap": "Site Haritası",
+    "sss": "SSS",
+    "haberler": "Haberler",
+    "etkinlikler": "Etkinlikler",
+    "duyurular": "Duyurular",
+    "opportunities": "Fırsatlar",
+    "aiAssistant": "CompassIA Asistanı",
+    "signIn": "Giriş Yap",
+    "signOut": "Çıkış Yap",
+    "user": "Kullanıcı",
+    "toggleMenu": "Menüyü Aç/Kapat"
+  },
+  "footer": {
+    "aboutUs": "Kurumsal",
+    "publications": "Yayınlar",
+    "media": "Medya",
+    "policies": "Politikalar",
+    "contactUs": "Bize Ulaşın",
+    "sitemap": "Site Haritası",
+    "followUs": "Bizi Takip Edin",
+    "backToTop": "Yukarı Çık",
+    "copyright": {
+      "text": "© {{year}} ",
+      "author": "MaarifCompass.org",
+      "link": "https://maarifcompass.org",
+      "message": "Tüm hakları saklıdır."
+    },
+    "privacyPolicy": "Gizlilik Politikası",
+    "termsOfService": "Hizmet Şartları",
+    "dataProtectionPolicyPageTitle": "Veri Koruma Politikası",
+    "tmvLogoText": "MaarifCompass",
+    "socialMedia": "Sosyal Medya",
+    "links": {
+      "turkishMaarifFoundation": "Türkiye Maarif Vakfı",
+      "areasOfWork": "Faaliyet Alanları",
+      "corporateIdentity": "Kurumsal Kimlik",
+      "management": "Yönetim",
+      "internationalMaarifMagazine": "Uluslararası Maarif Dergisi",
+      "maarifPublications": "Maarif Yayınları",
+      "books": "Kitaplar",
+      "activityReports": "Faaliyet Raporları",
+      "domesticPublications": "Yurtiçi Yayınlar",
+      "news": "Haberler",
+      "announcement": "Duyuru",
+      "photos": "Fotoğraflar",
+      "videos": "Videolar",
+      "dataProtectionPolicy": "Veri Koruma Politikası",
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "instagram": "Instagram",
+      "youtube": "YouTube",
+      "linkedin": "LinkedIn",
+      "telegram": "Telegram"
+    }
+  },
+  "hero": {
+    "title": "MaarifCompass'e Hoş Geldiniz",
+    "subtitle": "Türkiye Maarif Vakfı mezunları ve Türkiye'deki öğrenciler için rehberiniz ve destek platformunuz. Kaynakları keşfedin, akranlarınızla bağlantı kurun ve akademik yolculuğunuzda güvenle ilerleyin.",
+    "cta": "Hakkımızda Daha Fazla Bilgi Edinin"
+  },
+  "homepage": {
+    "services": {
+      "title": "Temel Hizmetlerimiz",
+      "noServices": "Hizmet bilgileri yakında eklenecektir.",
+      "item1": {
+        "title": "Akademik Rehberlik",
+        "description": "Uzman tavsiyeleri ve kaynaklarla çalışmalarınızda yolunuzu bulun."
+      },
+      "item2": {
+        "title": "Kariyer Fırsatları",
+        "description": "Stajları, iş ilanlarını ve kariyer gelişimini keşfedin."
+      },
+      "item3": {
+        "title": "Topluluk Ağı",
+        "description": "Türkiye genelindeki diğer mezunlar ve öğrencilerle bağlantı kurun."
+      }
+    },
+    "impact": {
+      "title": "Etkimiz",
+      "content": "Kuruluşumuzdan bu yana, TMV öğrencileri ve mezunları için destekleyici ve zenginleştirici bir ortam geliştirmeye adadık. Birlikte inşa ettiğimiz toplulukla gurur duyuyoruz."
+    },
+    "getInvolved": {
+      "title": "Katılın",
+      "content": "Topluluğumuza katılın, değerli kaynaklara erişin veya misyonumuza katkıda bulunun. Başarılı olmanıza yardımcı olmak için buradayız.",
+      "contactButton": "Bize Ulaşın",
+      "documentsButton": "Belgeleri Keşfedin"
+    }
+  },
+  "aboutPage": {
+    "mainHeading": "Misyonumuz, vizyonumuz ve Maarif topluluğuna sunduğumuz hizmetler hakkında daha fazla bilgi edinin.",
+    "introduction": "MaarifCompass, Türkiye Maarif Vakfı (TMV) mezunlarına ve Türkiye'de eğitimlerine devam eden mevcut öğrencilere destek olmaya adanmıştır. Bireylerin akademik ve profesyonel olarak gelişmelerine yardımcı olmak için kapsamlı bir rehberlik, kaynak ve topluluk katılımı platformu sunmayı amaçlıyoruz.",
+    "mission": {
+      "title": "Misyonumuz",
+      "content": "Erişilebilir kaynaklar sağlayarak, güçlü bir topluluk ağı oluşturarak ve akademik ve kişisel gelişimleri için rehberlik sunarak Türkiye'deki TMV mezunlarını ve öğrencilerini güçlendirmek."
+    },
+    "vision": {
+      "title": "Vizyonumuz",
+      "content": "Öğrenci başarısı, yenilikçilik ve işbirlikçi ruhuna olan bağlılığımızla tanınan, Türkiye'deki TMV topluluğu için lider destek merkezi olmak."
+    },
+    "whatWeOffer": {
+      "title": "Ne Sunuyoruz",
+      "item1": "Akademik ve idari kaynakların bulunduğu merkezi bir Belge Merkezi.",
+      "item2": "Staj, iş ve ileri eğitim fırsatlarına bağlantılar.",
+      "item3": "TMV topluluğuyla ilgili haberler, etkinlikler ve duyurular için bir platform."
+    }
+  },
+  "pages": {
+    "documentCenter": {
+      "intro": "MaarifCompass tarafından sağlanan önemli belgelere, formlara ve kaynaklara erişin. Akademik ve idari görevlerinizi desteklemek için ihtiyacınız olanı bulun.",
+      "noDocuments": "Belge Merkezi'nde şu anda herhangi bir belge bulunmamaktadır.",
+      "adminInstructions": "Lütfen daha sonra tekrar kontrol edin veya bir yöneticiyseniz yönetim panelinden belge ekleyebilirsiniz.",
+      "documentImageAlt": "Belge önizleme resmi",
+      "untitledDocument": "Başlıksız Belge",
+      "noDescription": "Bu belge için açıklama bulunmamaktadır.",
+      "viewDocument": "Belgeyi Görüntüle",
+      "viewDocumentAria": "Belgeyi görüntüle: {{documentName}}",
+      "compassIA": {
+        "title": "CompassIA ile Tanışın!",
+        "description": "Belgelerimiz hakkında sorularınız mı var veya belirli bilgileri bulma konusunda yardıma mı ihtiyacınız var? Yapay Zeka Asistanımız CompassIA, kaynaklarımızda gezinmenize yardımcı olmak için burada.",
+        "button": "CompassIA ile Sohbet Et"
+      }
+    },
+    "contact": {
+      "title": "İletişim"
+    },
+    "faq": {
+      "title": "Sıkça Sorulan Sorular",
+      "description": "MaarifCompass, hizmetlerimiz ve topluluğumuzu nasıl desteklediğimiz hakkında sık sorulan soruların yanıtlarını bulun."
+    },
+    "haberler": {
+      "description": "MaarifCompass ve daha geniş TMV topluluğundan en son haberler ve gelişmelerle güncel kalın.",
+      "noNews": "Şu anda herhangi bir haber makalesi bulunmamaktadır. Lütfen daha sonra tekrar kontrol edin.",
+      "sample": {
+        "news1": {
+          "title": "MaarifCompass Yeni Mentorluk Programını Başlattı",
+          "summary": "Kıdemli öğrencileri ve mezunları yeni gelenlerle buluşturan yeni mentorluk programımızın lansmanını duyurmaktan heyecan duyuyoruz."
+        },
+        "news2": {
+          "title": "Yıllık TMV Mezun Buluşması Gelecek Ay Planlandı",
+          "summary": "Yıllık mezun buluşmamıza katılın! Akranlarla ağ kurmak ve yeniden bağlantı kurmak için harika bir fırsat."
+        }
+      }
+    },
+    "etkinlikler": {
+      "description": "MaarifCompass ve ortak kurumlar tarafından düzenlenen yaklaşan etkinlikleri, atölye çalışmalarını ve seminerleri keşfedin.",
+      "noEvents": "Şu anda planlanmış bir etkinlik bulunmamaktadır. Lütfen yakında tekrar kontrol edin.",
+      "sample": {
+        "event1": {
+          "title": "Atölye: Türkiye'de Akademik Araştırmalarda Yol Almak",
+          "summary": "Öğrencileri Türk üniversitelerindeki çalışmaları için temel araştırma becerileriyle donatmak üzere tasarlanmış uygulamalı bir atölye."
+        },
+        "event2": {
+          "title": "TMV Öğrencileri ve Mezunları için Kariyer Fuarı",
+          "summary": "Yıllık kariyer fuarımızda önde gelen şirketler ve kuruluşlarla kariyer fırsatlarını keşfedin."
+        }
+      }
+    },
+    "duyurular": {
+      "description": "MaarifCompass'ten önemli duyurular ve güncellemeler. Son tarihler, yeni hizmetler ve daha fazlası hakkında bilgi sahibi olun.",
+      "noAnnouncements": "Şu anda herhangi bir duyuru bulunmamaktadır. Güncellemeler için lütfen daha sonra tekrar kontrol edin.",
+      "sample": {
+        "announcement1": {
+          "title": "Burs Başvurusu Son Tarihi Yaklaşıyor",
+          "detail": "Yaklaşan akademik yıl için TMF Bursu son başvuru tarihi 15 Kasım'dır. Başvurunuzun zamanında gönderildiğinden emin olun."
+        },
+        "announcement2": {
+          "title": "Yeni Belge Yüklendi: Vize Yenileme Rehberi",
+          "detail": "Vize yenileme prosedürleri için güncellenmiş bir rehber Belge Merkezi'ne eklendi. En son bilgiler için lütfen inceleyin."
+        }
+      }
+    },
+    "opportunities": {
+      "description": "TMV öğrencilerine ve mezunlarına sunulan stajlar, iş ilanları, burslar ve değişim programları dahil çeşitli fırsatları keşfedin.",
+      "noOpportunities": "Şu anda listelenen bir fırsat bulunmamaktadır. Yeni listelemeler için lütfen yakında tekrar kontrol edin.",
+      "sample": {
+        "opportunity1": {
+          "title": "Tech Solutions Inc.'de Staj Fırsatı",
+          "detail": "Tech Solutions Inc. motive olmuş yazılım mühendisliği stajyerleri arıyor. Değerli endüstri deneyimi kazanmak için şimdi başvurun."
+        },
+        "opportunity2": {
+          "title": "Sosyal Bilimlerde Tam Burslu Doktora Fırsatı",
+          "detail": "Prestijli bir üniversite, çeşitli sosyal bilim disiplinlerinde tam burslu doktora programı sunmaktadır. Son başvuru tarihi yaklaşıyor."
+        }
+      }
+    },
+    "aiAssistant": {
+      "description": "Bilgi bulmanıza, belgelerle ilgili soruları yanıtlamanıza ve MaarifCompass kaynaklarında size rehberlik etmenize yardımcı olacak kişisel yapay zeka asistanınız.",
+      "welcomeTitle": "CompassIA'ya hoş geldin, {{name}}!",
+      "welcomeTitleDefault": "CompassIA'ya hoş geldiniz!",
+      "welcomeSubtitle": "Bugün size nasıl yardımcı olabilirim?",
+      "welcomeMessageCleared": "Sohbet temizlendi. Şimdi sana nasıl yardımcı olabilirim, {{name}}?",
+      "inputPlaceholder": "CompassIA'ya her şeyi sor...",
+      "inputPlaceholderChatGPT": "CompassIA'ya mesaj gönder...",
+      "sendButton": "Gönder",
+      "errorResponse": "Üzgünüm, yanıt vermeye çalışırken bir sorunla karşılaştım. Lütfen tekrar deneyin veya farklı bir şey sorun.",
+      "errorTitle": "Yapay Zeka Asistanı Hatası",
+      "signInRequiredTitle": "CompassIA'ya Erişin",
+      "signInRequiredMessage": "Yapay Zeka Asistanını kullanmak için lütfen Google hesabınızla oturum açın. Bu, deneyiminizi kişiselleştirmemize ve daha iyi destek sağlamamıza yardımcı olur.",
+      "signInWithGoogleButton": "Google ile Giriş Yap",
+      "sidebar": {
+        "newChat": "Yeni Sohbet",
+        "today": "Bugün",
+        "yesterday": "Dün",
+        "previous7Days": "Önceki 7 Gün",
+        "previous30Days": "Önceki 30 Gün",
+        "openSidebar": "Kenar Çubuğunu Aç",
+        "closeSidebar": "Kenar Çubuğunu Kapat"
+      }
+    }
+  },
+  "documentViewPage": {
+    "downloadButton": "Belgeyi İndir",
+    "downloadHint": "Belgeyi cihazınıza indirmek için düğmeye tıklayın.",
+    "previewNotAvailable": "Bu dosya türü için önizleme mevcut değil.",
+    "downloadToView": "İçeriğini görüntülemek için lütfen dosyayı indirin."
+  },
+  "indexingTrigger": {
+    "sectionTitle": "Geliştirici: Belge İndekslemeyi Test Et",
+    "sectionDescription": "Bu, yapay zeka belge indeksleme akışını tetikler. Firestore'dan belgeleri okur, metin çıkarır, gömülmeler oluşturur ve bunları yapay zeka araması için saklar. Bu işlem, belgelerin sayısına ve boyutuna bağlı olarak birkaç dakika sürebilir.",
+    "sectionNote": "Not: Bu işlem kaynak yoğun olabilir. Test amacıyla kullanın. Ayrıntılı ilerleme ve hatalar için sunucu günlüklerini kontrol edin.",
+    "button": "Belge İndekslemeyi Çalıştır",
+    "loadingButton": "İndeksleniyor...",
+    "successTitle": "Belge İndeksleme Tamamlandı",
+    "successWithWarningTitle": "İndeksleme Uyarılarla Tamamlandı",
+    "errorTitle": "İndeksleme Başarısız Oldu",
+    "processed": "İşlenen Belge Sayısı: {{count}}",
+    "parsed": "Başarıyla Ayrıştırılan/Çıkarılan (bu çalıştırmada): {{count}}",
+    "cached": "Önbelleğe Alınmış Metin Kullanıldı: {{count}}",
+    "failed": "Ayrıştırma/İndirme Başarısız: {{count}}",
+    "chunks": "Oluşturulan Metin Parçacığı: {{count}}",
+    "embeddings": "Oluşturulan Gömülme: {{count}}",
+    "warningTitle": "Uyarı",
+    "noDocumentsInFirestore": "Firestore'da indekslenecek belge bulunamadı."
+  },
+  "common": {
+    "contentComingSoon": "Bu bölüm için içerik yakında eklenecektir. Lütfen daha sonra tekrar kontrol edin!",
+    "learnMore": "Daha Fazla Bilgi",
+    "readMore": "Devamını Oku",
+    "applyNow": "Şimdi Başvur",
+    "user": "Kullanıcı",
+    "notFound": "Sayfa Bulunamadı"
+  }
+}
